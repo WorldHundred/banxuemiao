@@ -1,0 +1,43 @@
+{
+  "bsonType": "object",
+  "required": ["username", "password_hash"],
+  "permission": {
+    "read": false,
+    "create": true,
+    "update": false,
+    "delete": false
+  },
+  "properties": {
+    "_id": {
+      "bsonType": "string",
+      "description": "用户ID"
+    },
+    "username": {
+      "bsonType": "string",
+      "description": "用户名",
+      "title": "用户名",
+      "maxLength": 20,
+      "minLength": 2
+    },
+    "password_hash": {
+      "bsonType": "string",
+      "description": "密码哈希"
+    },
+    "avatar": {
+      "bsonType": "string",
+      "description": "头像",
+      "defaultValue": "😊"
+    },
+    "token": {
+      "bsonType": "string",
+      "description": "登录令牌"
+    },
+    "created_at": {
+      "bsonType": "timestamp",
+      "description": "注册时间",
+      "forceDefaultValue": {
+        "$env": "now"
+      }
+    }
+  }
+}

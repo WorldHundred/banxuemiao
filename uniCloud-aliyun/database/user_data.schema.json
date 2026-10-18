@@ -1,0 +1,33 @@
+{
+  "bsonType": "object",
+  "required": ["user_id"],
+  "permission": {
+    "read": false,
+    "create": true,
+    "update": false,
+    "delete": false
+  },
+  "properties": {
+    "_id": {
+      "bsonType": "string",
+      "description": "文档ID"
+    },
+    "user_id": {
+      "bsonType": "string",
+      "description": "用户ID",
+      "foreignKey": "users._id"
+    },
+    "data_json": {
+      "bsonType": "string",
+      "description": "完整学习数据JSON"
+    },
+    "data_size": {
+      "bsonType": "int",
+      "description": "数据大小（字节）"
+    },
+    "updated_at": {
+      "bsonType": "timestamp",
+      "description": "最后同步时间"
+    }
+  }
+}

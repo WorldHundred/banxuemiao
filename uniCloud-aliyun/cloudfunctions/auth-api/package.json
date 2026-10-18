@@ -1,0 +1,10 @@
+{
+  "name": "auth-api",
+  "version": "1.0.0",
+  "description": "用户认证云函数",
+  "main": "index.js",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

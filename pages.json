@@ -1,0 +1,39 @@
+{
+  "pages": [
+    {"path": "pages/today/today", "style": {"navigationBarTitleText": "今日打卡", "navigationBarBackgroundColor": "#f7fbfc", "navigationBarTextStyle": "black"}},
+    {"path": "pages/pool/pool", "style": {"navigationBarTitleText": "学习池", "navigationBarBackgroundColor": "#f7fbfc", "navigationBarTextStyle": "black"}},
+    {"path": "pages/analysis/analysis", "style": {"navigationBarTitleText": "专注", "navigationBarBackgroundColor": "#f7fbfc", "navigationBarTextStyle": "black"}},
+    {"path": "pages/community/community", "style": {"navigationBarTitleText": "学习社区", "navigationBarBackgroundColor": "#f7fbfc", "navigationBarTextStyle": "black"}},
+    {"path": "pages/profile/profile", "style": {"navigationBarTitleText": "我的", "navigationBarBackgroundColor": "#f7fbfc", "navigationBarTextStyle": "black"}},
+    {"path": "pages/growth/growth", "style": {"navigationBarTitleText": "成长记录", "navigationBarBackgroundColor": "#f7fbfc", "navigationBarTextStyle": "black", "animationType": "pop-in"}},
+    {"path": "pages/settings/settings", "style": {"navigationBarTitleText": "设置", "navigationBarBackgroundColor": "#f7fbfc", "navigationBarTextStyle": "black", "animationType": "pop-in"}}
+  ],
+  "tabBar": {
+    "color": "#8aa5ab",
+    "selectedColor": "#4aad98",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/today/today",
+        "text": "📋 打卡"
+      },
+      {
+        "pagePath": "pages/pool/pool",
+        "text": "🗂️ 计划"
+      },
+      {
+        "pagePath": "pages/analysis/analysis",
+        "text": "📊 专注"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "text": "💬 发现"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "👤 我的"
+      }
+    ]
+  }
+}

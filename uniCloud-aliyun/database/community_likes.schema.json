@@ -1,0 +1,32 @@
+{
+  "bsonType": "object",
+  "required": ["user_id", "post_id"],
+  "permission": {
+    "read": true,
+    "create": true,
+    "update": false,
+    "delete": "doc.user_id == auth.uid"
+  },
+  "properties": {
+    "_id": {
+      "bsonType": "string",
+      "description": "文档ID"
+    },
+    "user_id": {
+      "bsonType": "string",
+      "description": "用户ID"
+    },
+    "post_id": {
+      "bsonType": "string",
+      "description": "帖子ID",
+      "foreignKey": "community_posts._id"
+    },
+    "created_at": {
+      "bsonType": "timestamp",
+      "description": "创建时间",
+      "forceDefaultValue": {
+        "$env": "now"
+      }
+    }
+  }
+}
