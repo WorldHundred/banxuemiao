@@ -6,6 +6,17 @@ uni-app（Vue 3）+ uniCloud 阿里云，一套代码可以打包 App / H5 / 小
 > 这是我在 2025 年独立完成的移动端项目：7 个页面、约 6,900 行 Vue/JS（不含第三方 uni_modules），
 > 3 个云函数、5 张云数据库表。代码按 HBuilderX 工程结构组织，APK 产物在 `unpackage/release/apk/`（未入库）。
 
+## 界面
+
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/01-today.jpg" width="220"><br>今日打卡 · 猫咪养成</td>
+    <td align="center"><img src="docs/screenshots/02-focus.jpg" width="220"><br>专注 · 番茄钟</td>
+    <td align="center"><img src="docs/screenshots/03-growth.jpg" width="220"><br>成长记录</td>
+    <td align="center"><img src="docs/screenshots/04-profile.jpg" width="220"><br>我的 · 学习数据</td>
+  </tr>
+</table>
+
 ## 功能
 
 | 模块 | 页面 | 做了什么 |
